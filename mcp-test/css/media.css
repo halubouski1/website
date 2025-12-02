@@ -1,0 +1,476 @@
+@media (max-width:1270px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .hero__image-wrapper {
+        max-width: 692px;
+        width: 100%;
+    }
+
+    .header__logo, .header__nav, .header__phone {
+    margin-right: auto;
+    }
+
+    .hero__input-group {
+    width: 47%;
+    }
+
+    .hero__input-group:last-child {
+    width: 47%;
+    }
+
+    .hero-privacy {
+        max-width: 100%;
+        font-size: 13px;
+    }
+
+    .brands__list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .we-can-do__image {
+        width: 100%;
+        position: static;
+    }
+
+    .we-can-do__images {
+        height: 100%;
+    }
+
+    .we-can-do__container {
+        align-items: center;
+    }
+
+    .why-choose-us__card {
+            text-align: center;
+    }
+}
+
+@media(max-width:1212px) {
+    .footer__top {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero__badge {
+        top: 20px;
+        left: 20px;
+    }
+
+    .footer__contact {
+        justify-content: center;
+    }
+
+    .footer__button {
+        width: 20%;
+    }
+}
+
+@media(max-width:1115px) {
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__logo {
+        margin-right: 38px;
+    }
+
+    .header__nav {
+        margin-right: 0;
+    }
+
+    .header__contact {
+        width: auto;
+    }
+
+    .footer__button, .header__button {
+        min-width: 285px;
+    }
+
+    .best-offers__card {
+    flex: 0 0 49%;
+    }
+
+    .cars-in-stock__card {
+        flex: 0 0 49%;
+    }
+
+    .service__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:1000px) {
+    .hero__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__help-text {
+        display: block;
+    }
+
+    .hero__help-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .why-choose-us__card {
+        padding: 20px 15px;
+    }
+}
+
+@media(max-width:960px) {
+    .section-title, .best-offers__title, .cars-in-stock__title, .service__title, 
+    .why-choose-us__title, .contacts__title, .choose__title, .hero-heading__title, .we-can-do__title{
+        font-size: var(--font-size-h1-mobile);
+    }
+
+    .hero,  .choose, .cars-in-stock, .service, .we-can-do, .contacts {
+        padding: var(--section-small-padding);
+    }
+
+    .hero-heading__title {
+        margin-bottom: 40px;
+    }
+
+    .choose__filters {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .choose__filter {
+        flex: none;
+    }
+
+    .choose__price-input {
+        flex: none;
+    } 
+
+    .choose__filter-select {
+        min-width: 180px;
+    }
+
+    .we-can-do__images {
+        display: none;
+    }
+
+    .we-can-do__container {
+        justify-content: center;
+    }
+
+    .we-can-do__text-content {
+        max-width: 584px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .we-can-do__input-group:last-child {
+    width: 48%;
+    }
+
+    .we-can-do__input-group {
+    width: 48%;
+    }
+
+    .we-can-do__form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .we-can-do__privacy {
+        font-size: 13px;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .best-offers__card-button, .cars-in-stock__card-button, .service__card-button{
+        padding: 14px 50px;
+    }
+
+    .hero__image-wrapper {
+        height: 300px;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
+
+    .header__container {
+        justify-content: space-between;
+    }
+
+    .footer__top {
+        padding: 0;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .footer__nav {
+        order: 2;
+        flex-direction: row;
+    }
+
+    .footer-wrapper {
+        order: 1;
+    }
+
+    .footer__contact {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__bottom {
+        align-items: center;
+    }
+
+    .footer__logo, .footer-wrapper, .footer__nav {
+        margin-right: 0;
+    }
+
+    .contacts__content {
+        flex-direction: column-reverse;
+        gap: 40px;        
+    }
+
+    .contacts__map {
+        height: 100%;
+    }
+
+    .best-offers__cards {
+        padding: 4px;
+        padding-bottom: 10px;
+    }
+
+    .footer__links {
+        align-items: center;
+    }
+
+    .offcanvas .footer-wrapper {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .offcanvas .footer__phone, .offcanvas .footer-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:644px) {
+        .best-offers__card {
+        flex: 0 0 60%;
+        min-width: 253px;
+    }
+
+    .best-offers__viewport {
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    .best-offers__nav, .cars-in-stock__nav {
+        display: none;
+    }
+
+        .cars-in-stock__card {
+        flex: 0 0 60%;
+        min-width: 253px;
+    }
+
+        .cars-in-stock-viewport {
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    .best-offers__card-specs, .cars-in-stock__card-specs {
+        display: none;
+    }
+
+    .service__cards {
+        display: flex;
+        overflow: scroll;
+        scrollbar-width: none;
+        padding: 4px;
+    }
+}
+
+@media(max-width:500px) {
+    .header__logo-img {
+        width: 124px;
+    }
+
+    .section-title, .best-offers__title, .cars-in-stock__title, .service__title, 
+    .why-choose-us__title, .contacts__title, .choose__title, .hero-heading__title, .we-can-do__title{
+        font-size: var(--font-size-h2-mobile);
+    }
+
+    .hero,  .choose, .cars-in-stock, .service, .we-can-do, .contacts {
+        padding: var(--section-small-padding)
+    }
+
+    .choose {
+        display: none;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero__input-group, .hero__input-group:last-child {
+        width: 100%;
+    }
+
+    .brands__item {
+        min-width: 79px;
+        width: auto;
+    }
+
+    .we-can-do__input-group, .we-can-do__input-group:last-child {
+        width: 100%;
+    }
+
+    .container {
+        padding: var(--container-mobile-padding);
+    }
+
+    .hero__nav--prev {
+        left: 0;
+    }
+
+    .hero__nav--next {
+        right: 0;
+    }
+
+    .why-choose-us__cards {
+        overflow: scroll;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+        justify-content: start;
+        padding: 4px;
+    }
+
+    .header__phone {
+        font-size: 14px;
+    }
+
+    .hero__help-title {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .hero__help-section {
+        margin-top: 0;
+    }
+
+    .hero__help-text {
+        margin-bottom: 20px;
+    }
+
+    .hero-heading__title {
+        margin-bottom: 20px;
+    }
+
+    .hero__badge {
+        top: 11px;
+        left: 14px;
+    }
+
+    .hero__image-wrapper {
+        height: 188px;
+    }
+
+    .hero__nav svg{
+        width: 33px;
+        height: 33px;
+    }
+
+    .hero__input-group {
+        min-height: 48px;
+        padding: 14px 49px;
+    }
+
+    .input-wrapper {
+        margin: 0;
+    }
+
+    .hero-privacy, .we-can-do__privacy {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .hero__button {
+    padding: 14px 66px;
+    width: 100%;
+    }
+
+    .hero {
+        padding-bottom: 20px;
+    }
+
+    .best-offers__title, .cars-in-stock__title, .service__title,
+    .why-choose-us__title, .we-can-do__title, .contacts__title {
+        font-size: 32px;
+    }
+
+    .cars-in-stock__cards {
+        margin-bottom: 20px;
+    }
+
+    .cars-in-stock__catalog-button, .service__all-services-button {
+        max-width: 100%;
+        padding: 18px 0;
+    }
+
+    .cars-in-stock, .we-can-do {
+        padding-bottom: 0;
+    }
+
+    .we-can-do__description {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .we-can-do__privacy {
+        margin-bottom: 20px;
+    }
+
+    .contacts__text {
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    .contacts__content {
+        align-items: start;
+    }
+
+    .footer__top, .footer__contact {
+        align-items: start;
+    }
+
+    .footer__button {
+        min-width: 100%;
+    }
+
+    .footer__nav {
+    width: 100%;
+    justify-content: space-between;
+    }
+}   
+
+@media(max-width:400px) {
+    .offcanvas .footer-wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .offcanvas .footer__phone {
+        width: auto;
+    }
+}
